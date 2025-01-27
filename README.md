@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+  ## Live Link : https://hotch-potch-tan.vercel.app/
 
 ## Getting Started
 
 First, run the development server:
+## Features
+# 1. Dynamic Tabs
+- The component uses dynamic tabs that allow switching between different content sets.
+Tabs are clickable, and the active tab's content is dynamically displayed without refreshing the page.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# 2. Customizable Content
+- Content for each tab is stored in an array, making it easy to add, edit, or remove tabs and their associated data.
+Fully adaptable for different use cases such as blog creation, content rewriting, or showcasing product details.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# 3. Gradient Design
+- Includes visually appealing gradients for the active tab and hover states.
+Uses Tailwind CSS's bg-gradient-to-r for smooth transitions.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# 4. Responsive Layout
+- Built with a responsive grid layout, ensuring compatibility with all screen sizes.
+Adjusts from a single-column layout on mobile to a multi-column layout on larger screens.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# 5. Reusable Component
+- Designed as a reusable React component with props for maximum flexibility.
+Easily integrates into any React or Next.js project.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# 6. Mock Browser Header
+- Includes a mock browser header (with red, yellow, and green indicators) to mimic a browser UI.
+Adds a professional touch to the displayed content area.
