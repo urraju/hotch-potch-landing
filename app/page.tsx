@@ -1,6 +1,8 @@
+import AiSection from "@/components/AiSection/AiSection";
 import Banner from "@/components/Banner/Banner";
 import CustomerLogo from "@/components/CustomerLogo/CustomerLogo";
 import Navbar from "@/components/Navbar/Navbar";
+import WritingTools from "@/components/WritingTools/WritingTools";
 
  
 
@@ -10,6 +12,8 @@ export default function Home() {
       <Navbar/>
       <Banner/>
       <CustomerLogo/>
+      <AiSection/>
+      <WritingTools/>
     </div>
   );
 }

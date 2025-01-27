@@ -42,11 +42,11 @@ const Navbar: React.FC = () => {
         {/* Right Side: Buttons */}
         <div className="hidden md:flex items-center gap-[10px] ">
           <button className=" w-[92px] h-[50px] border-gray-600 py-[16px] px-[20px] border rounded-[5px] text-sm font-inter text-white ">
-            Sign In 
+            Sign In
           </button>
 
-          <button className="w-[167px] h-[50px]  text-sm bg-gradient-to-l hover:bg-gradient-to-l hover:from-bgHoverR hover:to-bgHoverL duration-300 transition-all from-gradientR to-gradientL font-inter py-[16px] px-[20px] text-white rounded-[5px] ">
-            Subscribe
+          <button className="w-[167px] h-[50px]  text-[16px] bg-gradient-to-l hover:bg-gradient-to-l hover:from-bgHoverR hover:to-bgHoverL duration-300 transition-all from-gradientR to-gradientL font-inter  text-white rounded-[5px] ">
+            Get Started Free
           </button>
         </div>
 
@@ -90,8 +90,8 @@ const Navbar: React.FC = () => {
                 </button>
               </li>
               <li className="w-full">
-                <button className="w-full  text-sm bg-gradient-to-l hover:bg-gradient-to-l hover:from-bgHoverR hover:to-bgHoverL duration-300 transition-all from-gradientR to-gradientL font-inter py-[16px] px-[20px] text-white rounded-[5px] ">
-                  Subscribe
+                <button className="w-full  text-[16px] bg-gradient-to-l hover:bg-gradient-to-l hover:from-bgHoverR hover:to-bgHoverL duration-300 transition-all from-gradientR to-gradientL font-inter py-[16px] px-[20px] text-white rounded-[5px] ">
+                  Get Started Free
                 </button>
               </li>
             </div>
