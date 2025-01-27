@@ -48,10 +48,12 @@ export default function WritingTools() {
   return (
     <section className="mt-[153px] max-w-[1261px]  mx-auto">
       <div className="text-center mb-12">
-        <h2 className="text-3xl md:text-[42px] font-semibold font-outfit">54 exciting writing tools</h2>
+        <h2 className="text-3xl md:text-[42px] font-semibold font-outfit">
+          54 exciting writing tools
+        </h2>
         <p className="mt-[26px] text-paragraph1 text-[18px] leading-[28px]">
-          AI engines take information from various sources and read <br /> them like a
-          human would do.
+          AI engines take information from various sources and read <br /> them
+          like a human would do.
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[26px] mt-[61px]">
