@@ -1,15 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #12141d;
+  --gradientL: #2b59ff;
+  --gradientR: #bb2bff;
+  --bgHoverL: #5c7fff;
+  --bgHoverR: #cb5cff;
+  --lightBlue: #0ea5e9;
+  --paragraph2: #fafafa;
+  --paragraph1: #b7b8bb;
+  --outfit :  "Outfit", serif;
+  --inter : "Inter", serif;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #12141d;
     --foreground: #ededed;
   }
 }

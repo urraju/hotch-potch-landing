@@ -11,7 +11,19 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        gradientL : "var(--gradientL)",
+        gradientR : "var(--gradientR)",
+        bgHoverL : "var(--bgHoverL)",
+        bgHoverR : "var(--bgHoverR)",
+        paragraph2 : "var(--paragraph2)",
+        paragraph1 : "var(--paragraph1)",
+        lightBlue : "var(--lightBlue)",
+
       },
+      fontFamily : {
+        outfit : "var(--outfit)",
+        inter : "var(--inter)",
+      }
     },
   },
   plugins: [],
