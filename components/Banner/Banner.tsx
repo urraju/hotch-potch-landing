@@ -20,8 +20,9 @@ export default function Banner() {
           <button className="w-[214px] h-[60px] rounded-[5px] font-inter bg-gradient-to-l hover:bg-gradient-to-l hover:from-bgHoverR hover:to-bgHoverL duration-300 transition-all from-gradientR to-gradientL py-[16px] px-[20px] text-right">
             Start 14 Days Free Trial
           </button>
-          <button className="w-[214px] h-[37px] flex items-center mt-[13px] justify-center font-inter text-[16px] rounded-[5px] gap-[7px]   hover:bg-transparent border-gray-900 hover:border hover:border-gradientR">
-            <IoPlayCircleOutline className="text-xl" /> Watch A Demo
+          <button className="w-[214px] h-[37px] flex items-center mt-[13px] justify-center font-inter text-[16px] rounded-[5px] gap-[7px] hover:bg-gradient-to-r hover:from-gradientL hover:to-gradientR hover:text-transparent hover:bg-clip-text border-gray-900 hover:border hover:border-gradientR">
+            <IoPlayCircleOutline className="text-xl hover:bg-gradient-to-r hover:from-gradientL hover:to-gradientR hover:text-transparent hover:bg-clip-text" />
+            Watch A Demo
           </button>
         </div>
       </div>

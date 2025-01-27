@@ -71,7 +71,7 @@ const customers = [
 
 export default function Customer() {
   return (
-    <section className=" max-w-[1261px] mx-auto mt-[214px] text-white">
+    <section className=" max-w-[1261px] mx-auto mt-[600px] md:mt-[214px] text-white">
       <div className="text-center mb-12">
         <h2 className="text-3xl font-outfit md:text-[42px] font-semibold">
           What our customers say
